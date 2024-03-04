@@ -146,7 +146,6 @@ bot.action('s_tes_khusus', (ctx, next) => {
   return ctx.reply('👍').then(() => next())
 })
 
-
 bot.command('contact', (ctx) => {
   return ctx.reply('No.HP: 08126116632 /nIG: @admisiukdw /nTikTok: @admisiukdw');
 });
